@@ -49,8 +49,7 @@ const Navbar = () => {
 
         <header >
             <div className='container flex_space'>
-                <div className='logo'>
-                    <img src="../images/logo.png" />
+                <div className='logo'> 
                 </div>
             </div>
         </header>
