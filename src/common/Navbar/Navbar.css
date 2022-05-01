@@ -84,3 +84,49 @@ nav ul li a:hover{
         font-size: 2rem;
     }
 }
+
+/* ------------- header start -------- */
+
+header{
+    padding: 40px 0 20px 0; 
+} 
+header .box{
+    margin: 0 0 0 30px;
+}
+header a{
+    color: grey;
+    font-size: 13px;
+}
+header i{
+    color: #31b675;
+    font-size: 40px;
+    margin-right: 15px;
+}
+header .text{
+    margin-top: 10px;
+}
+header h4{
+    line-height: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    header .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header .contact{ 
+        align-items: center;
+        justify-content: center;
+    }
+    header a{
+        font-size: 13px; 
+    }
+    header i{
+        font-size: 30px; 
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+}
+
+/* ------------- header end -------- */

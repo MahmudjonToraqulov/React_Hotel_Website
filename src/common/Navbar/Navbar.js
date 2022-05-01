@@ -47,9 +47,48 @@ const Navbar = () => {
             </div>
         </nav>
 
-        <header >
+        <header>
             <div className='container flex_space'>
                 <div className='logo'> 
+                    <img alt='' src='Images\logo.png' />
+                </div>
+
+                <div className='contact flex_space'>
+                    <div className='box flex_space'>
+                        <div className='icons'>
+                            <i className='far fa-clock'></i>
+                        </div>
+                        <div className='text'>
+                            <h4>Working hours</h4>
+                            <Link to='/contact'>
+                                Monday - Sunday 9am to 6pm
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className='box flex_space'>
+                        <div className='icons'>
+                            <i className='fas fa-phone-volume'></i>
+                        </div>
+                        <div className='text'>
+                            <h4>Call us</h4>
+                            <Link to='/contact'>
+                                +998 98 9898 898 898
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className='box flex_space'>
+                        <div className='icons'>
+                            <i className='far fa-envelope'></i>
+                        </div>
+                        <div className='text'>
+                            <h4>Mail us</h4>
+                            <Link to='/contact'>
+                                info@gmail.com
+                            </Link>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
